@@ -21,3 +21,22 @@ var myData = numbers[0];
 
 //unlike strings, arrays are mutable! modify array using indexes
 numbers[0] = 45;
+
+
+//array manipulation
+
+//add element to the end
+myArray.push(['Matt', 28]);
+//remove an element from the end
+myArray.pop();
+//add element to the beginning
+myArray.unshift(['Gia', 7]);
+//remove element from the beginning, assigning to a variable
+var removedFromMyArray = myArray.unshift();
+
+//splice method
+
+//join method
+
+
+
