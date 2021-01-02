@@ -22,9 +22,11 @@ var myData = numbers[0];
 //unlike strings, arrays are mutable! modify array using indexes
 numbers[0] = 45;
 
+//multi-dimensional arrays example
+var myShoppingList = [["Oranges", 5], ["Apples", 10], ["Bananas", 5], ["Watermelon", 1], ["Pineapple", 2]];
+console.log(myShoppingList);
 
 //array manipulation
-
 //add element to the end
 myArray.push(['Matt', 28]);
 //remove an element from the end
