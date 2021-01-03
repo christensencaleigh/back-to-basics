@@ -26,6 +26,7 @@ numbers[0] = 45;
 var myShoppingList = [["Oranges", 5], ["Apples", 10], ["Bananas", 5], ["Watermelon", 1], ["Pineapple", 2]];
 console.log(myShoppingList);
 
+
 //array manipulation
 //add element to the end
 myArray.push(['Matt', 28]);
@@ -41,4 +42,14 @@ var removedFromMyArray = myArray.unshift();
 //join method
 
 
+// objects
 
+let spaceship = {
+	homePlanet: 'Earth',
+	color: 'silver',
+	'Fuel Type': 'Turbo Fuel',
+	numCrew: 5,
+	flightPath: ['Venus', 'Mars', 'Saturn']
+};
+let crewCount = spaceship.numCrew;
+let planetArray = spaceship.flightPath;
