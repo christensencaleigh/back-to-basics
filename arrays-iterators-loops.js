@@ -37,9 +37,10 @@ myArray.unshift(['Gia', 7]);
 //remove element from the beginning, assigning to a variable
 var removedFromMyArray = myArray.unshift();
 
-//splice method
+//splice method includes 2 arguments (start, stop) (allows us to copy a portion of an array, returns a new array)
+var groceryList = ['eggs', 'milk', 'butter', 'bread', 'cheese'];
 
-//join method
+//join method (take an array and converts it to a string with the delimiter of your choice as the parameter: ("," or "-")
 
 
 // objects
